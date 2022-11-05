@@ -16,18 +16,12 @@ function createCard(date, day,games){
   <ul>
    ${games}
   </ul>
-</div>
- `
+</div>`
 }
 
-document.querySelector('#app').innerHTML = `
-<header>
-<img src="./assets/logo.svg" alt="logo nlw copa" />
-<p> Fase de grupos </p>
-</header>
-<main id="cards">
+document.querySelector('#cards').innerHTML = `
 ${createCard("24/11", "quinta", createGame("brazil", "16:00","serbia"))}
 ${createCard("28/11", "segunda", createGame("suica", "13:00","brazil"))}
 ${createCard("02/12", "Sexta", createGame("brazil","16:00", "camaroes" ))}
-</main>
+
 `
