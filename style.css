@@ -47,6 +47,8 @@ header {
 }
 header p{
   color: #e1e1e6;
+  text-transform: uppercase;
+  text-align: center;
 }
 #cards{
   display: flex;
@@ -103,7 +105,15 @@ header p{
   font-size: 36px;
   line-height: 125%;
 }
-
+footer{
+  margin-top: 20px;
+  text-align: center;
+  color: #e1e1e6;
+  font-size: 18px;
+}
+footer span{
+  color: #f7dd43;
+}
 /*=========== Animações=====*/
 
 .card ul li strong:hover,
