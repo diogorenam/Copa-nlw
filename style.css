@@ -123,10 +123,10 @@ footer span{
 
 .card ul li strong ,
 .card ul img{
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 .card{
-  animation: appear 4s;
+  animation: appear 2s;
 }
 @keyframes appear {
   0%{
